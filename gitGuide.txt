@@ -1,17 +1,29 @@
-*)git init 		#for initialization a git repo
+*)git init 				#for initialization a git repo
 
-*)git status 		#to show git status
-
-*)git reset		#for back step like UNDO
+*)git status		 		#to show git status
 
 //To send form working directory to stage 
 
-*)git add .		#to send to stage file from current folder (best one)
-*)git add *		#to send all in stage without deleted file
-*)git add --all		#send all file to stage
-*)git add file.txt	#send file.txt to stage
-*)git add *.txt		#send all file of txt extensions
+*)git add .				#to send to stage file from current folder (best one)
+*)git add *				#to send all in stage without deleted file
+*)git add --all				#send all file to stage
+*)git add file.txt			#send file.txt to stage
+*)git add *.txt				#send all file of txt extensions
  
+*)git reset				#for back step (like UNDO) from stage to working directory
 
 
-*)
+///to commit 
+*)git commit -m "commit samary"		#to commit someting form stage
+
+*)git reset HEAD~			#back from commit to stage
+
+
+// to remove
+*)git rm file.txt			#remove + send to stage
+*)git rm file.txt -f			#force to delete anyways
+*)git rm --cahsed file.txt		#
+*)git reset --hard			#back after deleted file and also changes
+
+
+
