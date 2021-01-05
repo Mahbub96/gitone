@@ -22,8 +22,14 @@
 // to remove
 *)git rm file.txt			#remove + send to stage
 *)git rm file.txt -f			#force to delete anyways
-*)git rm --cahsed file.txt		#
+*)git rm --cahsed file.txt		#remove and send data to stage
 *)git reset --hard			#back after deleted file and also changes
 
+
+///Branch
+*)git branch				#to know how many branch are available in this current repo 
+*)git breanch name			#to make new branch called name
+*)git checkout name			#switch branch from main to name
+*)
 
 
