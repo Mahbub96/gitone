@@ -2,7 +2,14 @@
 
 *)git status		 		#to show git status
 
+///connect remote repository to local 
+*)git clone				#copy from remote repository for the first time and setup a connection through https address
+*)git push 				#to send file from local repository to Remote repo
+*)git pull				#to send file form Remote repo to local repo with status
+
+
 //To send form working directory to stage 
+
 
 *)git add .				#to send to stage file from current folder (best one)
 *)git add *				#to send all in stage without deleted file
@@ -36,6 +43,6 @@
 ///merge from other branch to main branch
 *)git merge main -m "merging on name with main"		#to merge on current branch from main branch
 *)git merge other -m "merging from other to main"	#to merge file from other brance to main (you have to be on main branch)
-*)
+
 
 
