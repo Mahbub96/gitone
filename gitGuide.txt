@@ -33,7 +33,9 @@
 *)
 
 
-///marge from other branch to main branch
-*)git marge main -m "marging on name with main"
+///merge from other branch to main branch
+*)git merge main -m "merging on name with main"		#to merge on current branch from main branch
+*)git merge other -m "merging from other to main"	#to merge file from other brance to main (you have to be on main branch)
+*)
 
 
