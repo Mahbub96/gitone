@@ -33,3 +33,8 @@
 *)
 
 
+///marge from other branch to main branch
+*)git marge main -m "marging on name with main"		#to marge on current branch from main branch
+*)
+
+
