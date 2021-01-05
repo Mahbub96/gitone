@@ -1,0 +1,17 @@
+*)git init 		#for initialization a git repo
+
+*)git status 		#to show git status
+
+*)git reset		#for back step like UNDO
+
+//To send form working directory to stage 
+
+*)git add .		#to send to stage file from current folder (best one)
+*)git add *		#to send all in stage without deleted file
+*)git add --all		#send all file to stage
+*)git add file.txt	#send file.txt to stage
+*)git add *.txt		#send all file of txt extensions
+ 
+
+
+*)
