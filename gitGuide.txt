@@ -37,7 +37,6 @@
 *)git branch				#to know how many branch are available in this current repo 
 *)git breanch name			#to make new branch called name
 *)git checkout name			#switch branch from main to name
-*)
 
 
 ///merge from other branch to main branch
